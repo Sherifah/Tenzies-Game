@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0B2434;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 320px;
+    height: 320px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 35px;
+}
+
+.game-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #2B283A;
+    margin: 0px;
+}
+
+.game-direction { 
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #4A4E74;
+}
+
+.die {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.dice {
+    width: 35.84px;
+    height: 35.84px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 3.81277px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.dice-num {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+    text-align: center;
+    color: #2B283A;
+}
+
+.dice-status {
+    background: #5035FF;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    border-radius: 3.81277px;
+    height: 35px;
+    width: 100px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dice-status:focus {
+    outline: none;
+}
+
+.dice-status:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
